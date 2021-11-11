@@ -126,8 +126,8 @@ a:hover {
   }
 }
 
-@media (mind-width: 300px) {
-  .container {
-    width:65px;
+@media (min-width: 300px) {
+  a {
+    margin-left :2em
   }
 }
