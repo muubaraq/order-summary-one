@@ -2,28 +2,32 @@
 
 body {
   box-sizing: border-box;
-  padding: 0;
+  height: 100vh;
+display: flex;
+justify-content: center;
+align-content: center;
+position: relative;
   background-image: url(/images/pattern-background-desktop.svg);
 background-attachment: scroll;
-  background-color: hsl(225, 100%, 94%);
+background-color: hsl(225, 100%, 94%);
 background-repeat: no-repeat;
 background-size: contain;
 }
+
 section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: white;
-  width: 450px;
-  height:600px;
-  margin-top:0.5em;
+  width: 49%;
+  height:570px;
   border-radius: 1.2em;
+  margin-top: 0.5em;
 }
 p, button {
   font-family: 'Red Hat Display', sans-serif;
@@ -44,13 +48,13 @@ h1{
 img {
   border-top-left-radius: 1.2em;
   border-top-right-radius: 1.2em;
-  width: 450px;
+  width: 100%;
 }
 
 .order-text {
   text-align: center;
   font-size: 16px;
-  width: 290px;
+  width: 70%;
   margin-top:0.2em;
 }
 .container{
@@ -58,7 +62,7 @@ img {
   justify-content: center;
   background-color: rgb(245, 248, 248);
   border-radius: 1em;
-  width:310.5px;
+  width:77%;
 
 }
 i {
@@ -82,8 +86,8 @@ color: white;
 border: none;
 border-radius: 0.38em;
 background-color: rgb(69, 54, 228);
-width: 310.5px;
-height: 38px;
+width: 77%;
+height: 50px;
 }
 .cancel {
   background-color:white;
@@ -108,10 +112,22 @@ a:hover {
 }
 
 .attribution {
-  width: 400px;
-  display: inline-block;
+  position: absolute;
+  top: 100%;
+   left: 50% + transformX;
 }
 .attr {
   margin: 0;
 }
+/* media queries */
+@media (min-width: 300px) {
+  main {
+    width: 345px;
+  }
+}
 
+@media (mind-width: 300px) {
+  .container {
+    width:65px;
+  }
+}
