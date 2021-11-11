@@ -22,7 +22,7 @@ main {
   background-color: white;
   width: 450px;
   height:600px;
-  margin:auto;
+  margin-top:0.5em;
   border-radius: 1.2em;
 }
 p, button {
