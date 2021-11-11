@@ -5,8 +5,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,7 +15,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -30,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://github.com/muubaraq/order-summary-one)
+- Live Site URL:(https://quirky-yonath-1596e0.netlify.app/)
 
 ## My process
 
@@ -69,8 +68,6 @@ I will definetly focus more on media queries, css grid and pesudo classes.
 
 
 ## Author
-
-- Website - [mubaraq](https://www.your-site.com)
 - Frontend Mentor - [@muubaraq](https://www.frontendmentor.io/profile/muubaraq)
 - Twitter - [@muubaraq](https://www.twitter.com/muubaraq)
 
