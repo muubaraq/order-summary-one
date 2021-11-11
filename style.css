@@ -5,6 +5,9 @@ body {
   padding: 0;
   background-image: url(/images/pattern-background-desktop.svg);
 background-attachment: scroll;
+  background-color: hsl(225, 100%, 94%);
+background-repeat: no-repeat;
+background-size: contain;
 }
 
 main {
