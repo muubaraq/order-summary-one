@@ -113,7 +113,7 @@ a:hover {
 
 .attribution {
   position: absolute;
-  top: 100%;
+  top: 90%;
    left: 50% + transformX;
 }
 .attr {
