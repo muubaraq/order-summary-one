@@ -25,7 +25,7 @@ main {
   align-items: center;
   background-color: white;
   width: 49%;
-  height:570px;
+  height:580px;
   border-radius: 1.2em;
   margin-top: 0.5em;
 }
@@ -113,7 +113,7 @@ a:hover {
 
 .attribution {
   position: absolute;
-  top: 90%;
+  top: 92%;
    left: 50% + transformX;
 }
 .attr {
